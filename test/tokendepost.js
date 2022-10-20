@@ -4,7 +4,7 @@ const truffleAssert = require('truffle-assertions');
 const {
     time
   } = require('@openzeppelin/test-helpers');
-  contract('token', async(accounts)=>{
+    contract('token', async(accounts)=>{
     let currentTime;
     var instance;
     var instance1;
